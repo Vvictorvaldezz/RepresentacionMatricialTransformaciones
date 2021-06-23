@@ -1,4 +1,9 @@
-﻿using System;
+/*integrantes del equipo :
+VICTOR HUGO VALDEZ ROBLES
+MARIA DEL ROSARIO  VALENTIN MONTIEL
+JUAN PABLO  GARCIA ALCANTARA
+YAZMIN CRUZ INIESTA*/
+using System;
 namespace hola{
     class Program{
         static void operacion(){
@@ -31,7 +36,6 @@ namespace hola{
             do{
                 Console.Write(" ¿QUE TIPO DE TRANSFORMACION DESEA HACER ?  \n 1) TRASLACION \n 2) ROTACION\n 3) ESCALAMIENTO\n INGRESA : ");
                 string tra = Console.ReadLine();
-                if (tra=="1" || tra == "2" || tra == "3"){
                     switch (tra){
                         case "1":
                             Console.WriteLine(" COORDENADAS DE LA TRANSFORMACION( TRASLACION)");
